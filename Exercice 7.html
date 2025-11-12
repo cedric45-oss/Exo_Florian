@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Titre du document</title>
+</head>
+<body>
+
+
+    <form action="reponse.php" method="post">
+
+<input type="text" name="Nom" required size="30">
+<input type="email" name="Email" required placeholder="exemple@domaine.fr">
+<input type="tel" name="téléphone" pattern="0-9" placeholder="10 chiffres">
+
+<input type="radio" name="Atelier" value="design">Design UX
+<input type="radio" name="Atelier" value="dev">Développement web
+<input type="radio" name="Atelier" value="Accessibilité" checked>Accessibilité
+
+<input type="checkbox" name="disponibilité" value="lundi-matin">lundi-matin
+<input type="checkbox" name="disponibilité" value="mardi-aprèsmidi">mardi-aprèsmidi
+<input type="checkbox" name="disponibilité" value="mercredi">mercredi
+
+<input type="radio" name="Niveau" value="débutant">Débutant
+<input type="radio" name="Niveau" value="intermédiaire">Intermédiaire
+<input type="radio" name="Niveau" value="Avancé">Avancé
+
+<input type="radio" name="newsletter" value="Oui">Recevoir Newsletter
+<input type="radio" name="newsletter" value="non">Ne souhaite pas recevoir
+<input type="radio" name="conditions" value="Oui" required>Accepter conditions
+
+<input type="number" name="Nombres de places" min="1" max="5" value="1">
+
+<input type="text" name="Code promo" value="PROMO2025" readonly>
+
+<input type="text" name="Commentaires" placeholder="Non disponible pour le moment" disabled>
+ 
+    </form>
+
+
+    
+</body>
+</html>
+

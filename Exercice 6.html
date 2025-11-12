@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Titre du document</title>
+</head>
+<body>
+
+
+    <form action="reponse.php" method="post">
+
+<input type="checkbox" name="interets[]" value="Sport">Sport
+<input type="checkbox" name="interets[]" value="lecture">Lecture
+<input type="checkbox" name="interets[]" value="Voyage">Voyage
+<input type="checkbox" name="interets[]" value="Cuisine">Cuisine
+
+<input type="radio" name="abonnement" value="basique"> Basique  
+<input type="radio" name="abonnement" value="Prenium"> Prenium
+<input type="radio" name="abonnement" value="Aucun" checked > Aucun
+
+<input type="number" name="Age" min="18" max="120" required>
+<input type="text" name="pseudo" size="10" maxlength="20" placeholder="4-20 caractères">
+<input type="email" name="mail" required>
+<input type="date" name="Date" max="2025-12-31">
+
+<input type="text" name="Nom du champ" disabled readonly>
+<input type="text" name="Code postal" value="75000" readonly>
+<input type="text" name="Commentaires" disabled placeholder="Désactivé pour l'instant">
+
+
+
+    </form>
+
+
+
+
+</body>
+</html>
+
