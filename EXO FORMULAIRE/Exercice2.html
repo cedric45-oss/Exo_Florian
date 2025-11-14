@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire de contact</title>
+</head>
+<body>
+   
+    <form>
+<fieldset>
+    <legend>Coordonnées</legend>
+    
+<label for="Nom">Nom :</label>
+<input type="text" id="Nom" name="Nom" placeholder="Nom" required aria-required="true" >
+
+<label for="Prénom">Prénom :</label>
+<input type="text" id="Prénom" name="Prénom" placeholder="Prénom" required aria-required="true">
+
+<label for="Mail">Mail :</label>
+<input type="email" id="Mail" name="Mail" placeholder="Mail" required aria-required="true">
+
+<label for="Téléphone">Téléphone</label>
+<input type="tel" id="Téléphone" name="Téléphone" placeholder="1234567890" required aria-required="true">
+
+
+</fieldset>
+<legend>Choix abonnement</legend> </br>
+<label aria-label="true" for="newsletter">NEWS</label>
+<select> name="Newsletter" id="newsletter" >
+      <optgroup label="newsletter">
+        <option value="Yes">S'abonner à la newsletter</option> 
+        <option value="No">Ne pas s'abonner</option> 
+        
+       </optgroup>   
+
+    </select>  
+</fieldset>
+
+<fieldset>
+    <legend>Boutons</legend>
+
+    <label for="Bouton envoyer">Envoyer</label>
+    <input  type="submit" aria-invalid="true" id="Bouton envoyer" value="bouton envoyer" name="bouton envoyer">
+
+    <label for="Bouton réinitialiser">Reprendre de zéro</label>
+    <input type="reset" id="Bouton réinitialiser" value="bouton réinitialiser" name="bouton réinitialiser">
+</fieldset>
+
+
+    </form>
+
+
+
+
+
+
+
+</body>
+</html>
