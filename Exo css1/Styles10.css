@@ -1,0 +1,9 @@
+.box3{
+    height: 100px;
+    width: 300px;
+    padding: 20px;
+    border: 1px solid black;
+    background-color: aqua;
+    box-sizing: content-box;
+    margin: 50% auto;
+}

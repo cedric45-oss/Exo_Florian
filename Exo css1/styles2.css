@@ -1,0 +1,12 @@
+ul li:nth-child(2)
+{
+    font-weight: 900;
+}
+.item
+{
+    border: 2px solid black
+    
+}
+li{
+    color: red;
+}

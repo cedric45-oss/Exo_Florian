@@ -1,0 +1,27 @@
+.flex-item{
+
+
+    height: 100px;
+    width: 150px;
+    border: 1px solid black;
+    margin: 10px;
+    
+}
+.flex-item:nth-child(1){
+    background-color: blueviolet;
+}
+.flex-item:nth-child(2){
+    background-color: rgb(42, 8, 130);
+}
+.flex-item:nth-child(3){
+    background-color: rgb(123, 211, 29);
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    width: 150px;
+    border: 1px solid black;
+    background-color: aqua;
+}
