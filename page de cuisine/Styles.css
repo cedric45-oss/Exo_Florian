@@ -1,0 +1,65 @@
+h1{
+    font-size: 50px;
+    color: brown;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 4%;
+    font-style: italic;
+    text-align: center;
+    background:linear-gradient(to bottom, rgb(162, 149, 149),rgb(234, 234, 245))
+}
+h2{
+    font-size: 36px;
+    color: brown;
+    font-style: italic;
+    margin: 4%;
+} 
+
+h1:hover,h2:hover {
+    color: rgba(48, 7, 162, 0.936);
+}
+
+
+
+section{
+    margin: 4%;
+    padding: 1%;
+}
+
+.etapes-ol li:nth-of-type(1){
+color: red;
+}
+.liste-ingredients li:first-child{
+    opacity: 0.6;
+}
+.etapes-ol{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.liste-ingredients{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#Ingredients{
+    background-color: azure;
+}
+#Ingredient-etapes{
+    background-color: bisque;
+}
+
+.liste-ingredients li:nth-child(1):hover{
+    color: blue;
+}
+.liste-ingredients li:nth-child(2):hover{
+    color: rgb(0, 255, 64);
+}
+.liste-ingredients li:nth-child(3):hover{
+    color: rgb(127, 189, 55);
+}
+.liste-ingredients li:nth-child(4):hover{
+    color: rgb(143, 15, 130);
+}
+.liste-ingredients li:nth-child(5):hover{
+    color: rgb(177, 74, 5);
+}
+h3{
+    text-align: center;
+}
