@@ -1,0 +1,27 @@
+img{
+    display: block;
+    width: 25%;
+}
+
+.image{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+@media (min-width: 600px) and (max-width: 1023px) {
+  .img {
+    width: 47%;
+  }
+}
+@media (min-width: 0px) and (max-width: 599px) {
+  .img {
+    width: 97%;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+  .img {
+    width: 23%;
+  }
+}
