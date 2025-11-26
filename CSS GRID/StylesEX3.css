@@ -1,0 +1,30 @@
+.grid-container{
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 30px;
+    margin: 2%;
+    padding: 4%;
+    justify-items: center;
+    grid-template-areas: 
+    "en-tete en-tete"
+    "barre-laterale contenu-principal"
+    "pied-page pied-page";
+}
+
+.en-tete{
+    grid-area: en-tete;
+    color: brown;
+}
+.barre-laterale{
+    grid-area: barre-laterale;
+
+}
+.contenu-principal{
+    grid-area: contenu-principal;
+}
+
+.pied-page{
+    grid-area: pied-page;
+}

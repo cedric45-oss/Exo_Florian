@@ -1,0 +1,36 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: 1FR 1FR 1FR;
+    grid-template-rows: 1FR 1FR 1FR;
+    gap: 10px;
+    justify-items: center;
+    grid-template-areas: 
+    "img1 img1 img1"
+    "img2 img2 img2"
+    "img3 img3 img3";
+}
+
+img {
+    height: 400px;
+    width: auto;
+}
+
+.grid-item{
+    margin: 2%;
+    padding: 2%;
+}
+
+.img1 {
+    grid-area: img1 / Span 3;
+}
+
+
+.img2 {
+    grid-area: img2 / Span 3;
+}
+
+
+.img3 {
+    grid-area: img3 / Span 3;
+}
+

@@ -1,0 +1,38 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: 1FR 1FR ;
+    grid-template-rows: 1FR 1FR 1FR 1FR;
+    gap: 10px;
+    margin: 2%;
+    grid-template-areas: 
+    "titre titre"
+    "etiquette1 etiquette1"
+    "etiquette2 etiquette2"
+    "bouton bouton";
+}
+
+.titre{
+    grid-area: titre / span 4;
+    font-size: 48px;
+    color: brown;
+    font-weight: bold;
+    font-style: italic;
+}
+.etiquette1{
+grid-area: etiquette1 / span 1;
+}
+.etiquette2{
+    grid-area:  etiquette2 / span 1;
+}
+
+.bouton{
+    grid-area: bouton / span 4;
+}
+label{
+    font-size: 20px;
+    font-style: italic;
+}
+input{
+    border: 1px solid black;
+    padding: 7px;
+}
