@@ -1,0 +1,32 @@
+.grid-container{
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto 1fr;
+    padding: 4%;
+    gap: 10px;
+    margin: 2%;
+    grid-template-areas: 
+    "apropos apropos apropos apropos"
+    "projets projets projets projets"
+    "competences competences competences competences"
+    "contact contact contact contact";
+}
+
+
+#header{
+  grid-area: apropos;
+  background-color: beige;
+}
+
+#main{
+  grid-area: projets;
+}
+
+#competences{
+  grid-area: competences;
+}
+
+#footer{
+  grid-area: contact;
+}

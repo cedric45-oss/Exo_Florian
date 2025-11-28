@@ -1,0 +1,40 @@
+.grid-container{
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    padding: 4%;
+    gap: 10px;
+    margin: 2%;
+    grid-template-areas: 
+    "image1 image2 image3 "
+    "article1 article2 article3 ";
+}
+
+img{
+  width: 100%;
+}
+
+#image1{
+  grid-area: image1;
+}
+
+#image2{
+  grid-area: image2;
+}
+
+#image3{
+  grid-area: image3;
+}
+
+#article1{
+  grid-area: article1;
+}
+
+#article2{
+  grid-area: article2;
+}
+
+#article3{
+  grid-area: article3;
+}
