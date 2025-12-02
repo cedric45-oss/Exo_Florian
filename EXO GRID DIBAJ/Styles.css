@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: white;
+}
+
+
+header{
+    margin: 4%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    flex-direction: row;
+}
+span{
+    color: white;
+}
+
+
+
+
+#choix-difficulte{
+    background-color: black;
+    color: rgb(88, 146, 233);
+    height: 2em;
+    
+}
+
+
+header:nth-child(2){
+    color:white ;
+}
+
+
+#bouton-nouvelle{
+    background-color: rgb(83, 178, 255);
+    width: 140%;
+    color: white;
+    padding: 5%;
+    border: none;
+    border-radius: 7px;
+    font-weight: 700;
+}
+/* PARTIE GRID */
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    padding: 3%;
+    gap: 50px;
+    grid-template-areas:
+    "H1 H1 H1"
+    "item1 item2 item3"
+    "demineur demineur demineur"
+     ;
+}
+
+
+h1{
+    grid-area: H1/span 3;
+    text-align: center;
+    padding-bottom: 4%;
+}
+#demineur{
+    grid-area: demineur/span 3;
+    grid-template-columns:repeat(9, 1fr);
+    grid-template-rows: repeat(9, 1fr);
+    border: 1px solid rgb(255, 255, 255);
+    height: 400px;
+    width: 400px;
+    gap: 2px;
+    display: grid;
+    padding: 4%;
+    background-color: rgb(177, 175, 175);
+}
+.case{
+    aspect-ratio: 1 / 1;
+    background: gray;
+    border: 2px solid rgb(0, 0, 0);
+    transition: transform 0.5s ease;
+    cursor: pointer;
+}
+
+.case:hover, .case:active{
+    background: gainsboro;
+    transform: scale(0.9);
+    
+}
+
+.grid-item {
+    padding: 10%;
+    box-shadow: 0 2px 8px rgb(83, 178, 255);
+    display: grid;
+    place-items: center;
+
+}
+
+
+.item1{
+    grid-area: item1;
+}
+.item2{
+    grid-area: item2;
+}
+.item3{
+    grid-area: item3;
+}
+
+img{
+    height: 50%;
+    width: auto;
+}

@@ -7,6 +7,140 @@
     <link rel="stylesheet" href="Styles.css">
 </head>
 <body>
-    
+    <header id="header">
+        <form action="Demineur.php" method="post">
+            <label for="-choix-difficulté" aria-label="label de Difficulté" id="choix-difficulte"><span>Difficulté</span></label>
+            <select name="Difficulté" id="choix-difficulte">
+                <option value="Choix">Veuillez choisir une difficulté</option>
+                <option value="Noob">Noob</option>
+                <option value="Facile">Facile</option>
+                <option value="Moyen">Moyen</option>
+                <option value="Difficile">Difficile</option>
+                <option value="Hardcore">Hardcore</option>
+            </select>
+                <label for="bouton-nouvelle" aria-label="Bouton pour commencer une partie"></label>
+                <input type="reset" id="bouton-nouvelle" name="Nouvelle Partie" value="Nouvelle Partie">
+        </form>
+        
+            
+
+            <div id="time">
+                <span>Mines : 0</span>
+                <time>00:00</time>
+            </div>
+    </header>
+
+    <div class="container">
+        <h1>Démineur aie aie aie.</h1>
+        <section class="grid-item item1">
+            <p>Clic gauche pour révéler, clic droit pour placer un drapeau.</p>
+<div id="demineur">
+    <div class="case"></div>
+    <div class="case"></div>
+    <div class="case"></div>
+    <div class="case"></div>
+    <div class="case"></div>
+    <div class="case"></div>
+    <div class="case"></div>
+    <div class="case"></div>
+    <div class="case"></div>
+    <div class="case"></div>
+    <div class="case"></div>
+    <div class="case"></div>
+    <div class="case"></div>
+    <div class="case"></div>
+    <div class="case"></div>
+    <div class="case"></div>
+    <div class="case"></div>
+    <div class="case"></div>
+    <div class="case"></div>
+    <div class="case"></div>
+    <div class="case"></div>
+    <div class="case"></div>
+    <div class="case"></div>
+    <div class="case"></div>
+    <div class="case"></div>
+    <div class="case"></div>
+    <div class="case"></div>
+    <div class="case"></div>
+    <div class="case"></div>
+    <div class="case"></div>
+    <div class="case"></div>
+    <div class="case"></div>
+    <div class="case"></div>
+    <div class="case"></div>
+    <div class="case"></div>
+    <div class="case"></div>
+    <div class="case"></div>
+    <div class="case"></div>
+    <div class="case"></div>
+    <div class="case"></div>
+    <div class="case"></div>
+    <div class="case"></div>
+    <div class="case"></div>
+    <div class="case"></div>
+    <div class="case"></div>
+    <div class="case"></div>
+    <div class="case"></div>
+    <div class="case"></div>   
+    <div class="case"></div>
+    <div class="case"></div>
+    <div class="case"></div>
+    <div class="case"></div>
+    <div class="case"></div>
+    <div class="case"></div>
+    <div class="case"></div>
+    <div class="case"></div>
+    <div class="case"></div>
+    <div class="case"></div>
+    <div class="case"></div>
+    <div class="case"></div>
+    <div class="case"></div>
+    <div class="case"></div>
+    <div class="case"></div>
+    <div class="case"></div>
+    <div class="case"></div>
+    <div class="case"></div>
+    <div class="case"></div>
+    <div class="case"></div>
+    <div class="case"></div>
+    <div class="case"></div>
+    <div class="case"></div>
+    <div class="case"></div>
+    <div class="case"></div>
+    <div class="case"></div>
+    <div class="case"></div>
+    <div class="case"></div>
+    <div class="case"></div>
+    <div class="case"></div>
+    <div class="case"></div>
+    <div class="case"></div>
+    <div class="case"></div>
+</div>
+            
+        </section>
+
+        <section class="grid-item item2">
+           <div id="regles">
+            <h3>Régles</h3>
+            <p>Réveler toutes les cases sans mines. Les chiffres indiquent le nombrent de mines adjacentes.</p>
+            </div>
+            <div>
+            <h3>Contrôles</h3>
+            <ul>
+                <li>clic gauche:Révler une case</li>
+                <li>Clic droit : placer/retirer un drapeau</li>
+                <li>Double-clic sur case révélée : ouvre automatiquement si drapeaux corrects autour</li>
+            </ul>
+            </div>
+            <p>Fait avec &#129505;  - version simple mais robuste.</p>
+        </section>
+
+        <section class="grid-item item3">
+            <h3>Résultat :</h3>
+            <p>Vous avez gagné ... ou pas.</p>
+        </section>
+    </div>
+
 </body>
 </html>
