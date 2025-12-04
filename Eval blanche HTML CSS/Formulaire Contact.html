@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="Styles.css">
+</head>
+<body>
+
+
+    <header>
+        <a href="Index.html">
+            <h1>CÉDRIC PEREIRA</h1>
+        </a>
+            <h2>Développeur Web et Web Mobile</h2>
+            <a href="Formulaire Contact.html">
+            <button class="contact">Me Contacter</button>
+            </a>
+    </header>
+   <h1 class="titre-contact"><mark>Formulaire de Contact</mark></h1>
+<form action="Rien.php" method="post" class="grid-container">
+    <div class="grid-item nom">
+    <label for="nom">Nom :</label>
+    <input type="text" id="nom" name="Nom" placeholder="Renseigner votre nom ici " required>
+    </div>
+
+    <div class="grid-item prenom">
+    <label for="prenom">Prénom :</label>
+    <input type="text" id="prenom" name="Prénom" placeholder="Renseigner votre Prénom ici " required>
+    </div>
+
+    <div>
+     <label for="mail">@ :</label>
+    <input type="email" id="mail" name="@" placeholder="OliviaGayat@gmail.com " required>
+    </div>
+
+<fieldset>
+  <legend>Selectionne une réponse:</legend>
+
+  <div>
+    <input type="checkbox" id="perso" name="drone" value="1"  />
+    <label for="perso">Perso</label>
+  </div>
+
+  <div>
+    <input type="checkbox" id="pro" name="pro" value="2" />
+    <label for="pro">Pro</label>
+  </div>
+
+<div>
+    <input type="checkbox" id="autre" name="autre" value="3" />
+    <label for="autre">Autre sujet</label>
+</div>
+</fieldset>
+
+
+    <div>
+    <label for="tel">Téléphone :</label>
+    <input type="tel" id="tel" name="Téléphone" placeholder="00 00 00 00 00 " required>
+    </div>
+
+    <div>
+        <label for="message">Message</label>
+        <textarea name="Saisissez votre texte" id="message" rows="8" cols="50" placeholder="Saisissez votre message ici"></textarea>
+    </div>
+
+    <div>
+    <label for="envoyer"></label>
+    <input type="submit" id="envoyer" value="Envoyer Le Message" >
+    </div>
+
+
+</form>
+
+
+
+
+        <footer>
+        <div>
+            <a href="https://www.instagram.com/oliviagayat/">
+            <img  class="svg" src="Assets/logo_inst.svg" alt="Logo d'instagram, t'as vu c'est en SVG on déconne pas sur l'optimisation.">
+            </a>
+        </div>
+        <div>
+            <a href="https://www.linkedin.com/in/cedric-pereira-b0a9a6341/">
+            <img class="svg" src="Assets/logo_link.svg" alt="Logo de linkedin.">
+            </a>
+        </div>
+    </footer>
+
+    
+</body>

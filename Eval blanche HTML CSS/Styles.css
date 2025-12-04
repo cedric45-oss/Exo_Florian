@@ -1,0 +1,205 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: content-box;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+img{
+ width: 80%;
+ height: auto;
+ border-radius: 15px;
+}
+
+header{
+    display: flex;
+    height: 15%;
+    width: 100%;
+    background-color:rgb(97, 87, 87);
+    color: white;
+    align-items: center;
+    padding: 3%;
+    justify-content: space-around;
+    flex-direction: row;
+
+}
+
+aside{
+    padding: 3%;
+    margin-left: 3%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    background-color: bisque;
+    width: 20%;
+    height: 100%;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.onglet{
+    padding-bottom: 10%;
+    font-weight: 500;
+    font-style: italic;
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+main{
+    justify-content: space-around;
+    display: flex;
+    padding: 8%;
+    flex-direction: column;
+    flex: 1;
+    height: auto;
+    width: 75%;
+}
+.encadrement{
+    display: flex;
+    flex-direction: row;
+
+}
+
+footer{
+    display: flex;
+    height: 15%;
+    width: 100%;
+    background-color:rgb(97, 87, 87);
+    color: white;
+    align-items: center;
+    padding: 3%;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.svg{
+    background-color: aliceblue;
+    width: 60px;
+    height: 60px;
+}
+mark{
+    background-color:rgb(97, 87, 87) ;
+    padding: 1%;
+    padding-right: 4%;
+    padding-left: 4%;
+    color: bisque;
+}
+
+
+.onglet-main{
+    margin-bottom: 8%;
+}
+.formation{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.experiences{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.presentation{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+ul{
+      list-style-type: none;
+}
+.svg:hover{
+    background-color: bisque;
+}
+
+
+
+@media screen and(max-width:767px){aside
+{
+  padding: 3%;
+    margin-left: 3%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    background-color: bisque;
+    width: 50%;
+    height: 100%;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+ }
+@media screen and (max-width:1023px){aside{
+  padding: 3%;
+    margin-left: 3%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    background-color: bisque;
+    width: 30%;
+    height: 100%;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+}
+.contact{
+    padding: 1%;
+    border-radius: 10px;
+    background-color: bisque;
+    font-size: 1.2em;
+    border-color:wheat;
+    font-weight: 700;
+    font-style: italic;
+}
+.contact:hover{
+    background-color:rgb(97, 87, 87) ;
+    color: bisque;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.titre-contact{
+    font-size: 3em;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+.grid-item{
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    font-size: 25px;
+    
+}
+input{
+    padding: 1%;
+    border-radius: 10px;
+    background-color: bisque;
+    font-size: 1.2em;
+    border-color:wheat;
+    font-weight: 700;
+    font-style: italic;
+    margin-bottom: 2%;
+}
+textarea{
+    padding: 1%;
+    border-radius: 10px;
+    background-color: bisque;
+    font-size: 1.2em;
+    border-color:wheat;
+    font-weight: 700;
+    font-style: italic;
+    margin-bottom: 2%; 
+}
+
+form{
+    padding: 8%;
+}
+fieldset{
+    font-size: 1.2em;
+    
+}
