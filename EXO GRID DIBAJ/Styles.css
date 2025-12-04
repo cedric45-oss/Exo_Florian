@@ -66,7 +66,7 @@ h1{
     text-align: center;
     padding-bottom: 4%;
 }
-#demineur{
+.demineur{
     grid-area: demineur/span 3;
     grid-template-columns:repeat(9, 1fr);
     grid-template-rows: repeat(9, 1fr);
