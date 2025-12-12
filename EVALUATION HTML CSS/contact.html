@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="Styles.css">
+</head>
+<body>
+
+<header aria-label="Contient un menu de navigation permettant d'accéder aux pages de l'entreprise, ainsi que le nom de l'entreprise : Trip Company">
+    <a href="Index.html">
+    <h1>Trip Company</h1>
+    </a>
+    <nav>
+        <ul>
+            <li><a href="Index.html">Accueil</a></li>
+            <li><a href="galerie.html">Galerie De Photos</a></li>
+            <li><a href="nous.html">À Propos De Nous</a></li>
+            <li><a href="contact.html"> Nous Contacter</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <form action="Rien.php" method="post" aria-label="formulaire de contact">
+    <div>
+    <label for="nom" aria-label="Champs nom du formulaire de contact">Nom :</label>
+    <input type="text" id="nom" name="Nom" placeholder="Renseigner votre nom ici " required aria-required="">
+    </div>
+
+    <div class="grid-item prenom">
+    <label for="prenom" aria-label="champs prénom du formulaire de contact">Prénom :</label>
+    <input type="text" id="prenom" name="Prénom" placeholder="Renseigner votre Prénom ici " required aria-required="">
+    </div>
+
+
+    <div>
+     <label for="mail" aria-label="Champs mail du formulaire de contact">@ :</label>
+    <input type="email" id="mail" name="@" placeholder="OliviaGayat@gmail.com " required aria-required="">
+    </div>
+
+
+
+    <div>
+    <label for="tel" aria-label="Champs téléphone du formulaire de contact">Téléphone :</label>
+    <input type="tel" id="tel" name="Téléphone" placeholder="00 00 00 00 00 " required>
+    </div>
+
+    <div>
+        <label for="message" aria-label="Champs de message du formulaire de contact">Message</label>
+        <textarea name="Saisissez votre texte" id="message" rows="8" cols="50" placeholder="Saisissez votre message ici"></textarea>
+    </div>
+
+    <div>
+    <label for="envoyer" aria-label="Bouton envoyer du formulaire de contact"></label>
+    <input type="submit" id="envoyer" value="Envoyer Le Message" >
+    </div>
+</form>
+</main>
+
+
+<footer aria-label="Informations légales et contact de l'entreprise">
+
+        <div class="footer-item1">
+            <h3>Trip Company</h3>
+            <p>Parce que voyage ne rime pas forcément avec se ruiner</p>
+        </div>
+        
+        <div class="footer-item2">
+            <h3>Mentions Légales</h3>
+            <p>A priori il doit en avoir, mais j'ai pas fais le cours la dessus</p>
+        </div>
+        
+        <div class="footer-item3">
+            <h3>Notre adresse :</h3>
+            <address> rue Olivia Gayat, 18000 Bourges</address>
+        </div>
+   
+</footer>
+</body>
+</html>
