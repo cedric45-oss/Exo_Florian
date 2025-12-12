@@ -3,6 +3,7 @@
    padding: 0;
    box-sizing: content-box;
    font-family: fantasy;
+   max-width: 100%;
 }
 img{
     height: 500px;
@@ -29,7 +30,7 @@ header{
     margin-bottom: 4%;
 }
 ul{
-    font-size: 1.5vw;
+    font-size: 2vw;
     display: flex;
     gap: 2rem;
     list-style: none;
@@ -53,12 +54,11 @@ a{
 /*PARTIE GRID PAGE ACCUEIL (main) */
 
 .grid-container{
-    
-    
     display: grid;
     gap: 20px;
     align-items: center;
     grid-template-columns: 1fr 1fr;
+    justify-items: center;
     grid-template-rows: auto;
     grid-template-areas:
     "titre titre"
@@ -75,9 +75,10 @@ a{
     height: 100vh;
     padding: 0%;
     margin: 0%;
-    justify-content: center;
     text-align: center;
     align-items: center;
+    justify-items: center;
+    flex-wrap: wrap;
 }
 .itemtitre h2{
     color: rgb(206, 0, 0);
@@ -208,3 +209,76 @@ video{
     text-align: center;
     text-decoration: underline;
 }
+
+@media screen and (max-width: 767px) {
+.grid-container{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "titre"
+    "item1"
+    "item2"
+    "item3";
+}
+footer{
+    gap: 3%;
+
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "footer1" 
+    "footer2"
+    "footer3";
+    text-align: center;
+}
+header{
+    display: flex;
+    padding: 4%;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgb(200, 229, 238);
+    align-items: center;
+    margin-bottom: 4%;
+}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    header{
+    display: flex;
+    padding: 4%;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgb(200, 229, 238);
+    align-items: center;
+    margin-bottom: 4%; 
+}
+footer{
+    gap: 3%;
+
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "footer1" 
+    "footer2"
+    "footer3";
+    text-align: center;
+}
+.grid-container{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "titre"
+    "item1"
+    "item2"
+    "item3";
+}
+}
+    
